@@ -24,12 +24,12 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/index.html"),
+      template: path.resolve(__dirname, "./public/index.html"),
     }),
     new CopyPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, "./src/favicon.ico"),
+          from: path.resolve(__dirname, "./public/favicon.ico"),
           to: path.resolve(__dirname, "./dist"),
         },
       ],
