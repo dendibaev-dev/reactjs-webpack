@@ -1,1 +1,1 @@
-# reactjs-webpack
+# Webpack config for ReactJs application
